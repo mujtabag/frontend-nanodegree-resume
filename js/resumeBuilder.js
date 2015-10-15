@@ -125,7 +125,7 @@ bio.display = function() {
     if (bio.skills.length > 0) {
         $("#header").append(HTMLskillsStart);
         for (var skill_index in bio.skills) {
-            if (bio.hasOwnProperty(skills)) {
+            if (bio.hasOwnProperty('skills')) {
                 var formattedSkill = HTMLskills.replace("%data%", bio.skills[skill_index]);
                 $("#skills").append(formattedSkill);
             }
