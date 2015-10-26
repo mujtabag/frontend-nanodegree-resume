@@ -118,10 +118,7 @@ bio.display = function() {
         console.log(bio.contacts[property]);
         var formattedContact = HTMLcontactGeneric.replace("%data%", bio.contacts[property]);
         formattedContact = formattedContact.replace("%contact%",property );
-<<<<<<< HEAD
-=======
         $("#header").append(formattedContact);
->>>>>>> aa31c1f126e338fa9c47ab0cc74a2e5213c9bc45
         $("#lets-connect").append(formattedContact);
     }
     if (bio.skills.length > 0) {
