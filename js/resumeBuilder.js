@@ -15,7 +15,7 @@ var bio = {
     "role": "hiking ninja (sensei)\n",
     "image": "images/hike_photo.jpg",
     "pictureURL": " https://goo.gl/photos/mRhgyZA2w4jUPje8A ",
-    "welcomeMessage": "Welcome to my world!",
+    "welcomeMessage": "",
     "contacts": {
     	"mobile": " 408 xxx yyyy",
     	"email": " mujtabag64@gmail.com",
@@ -118,6 +118,10 @@ bio.display = function() {
         console.log(bio.contacts[property]);
         var formattedContact = HTMLcontactGeneric.replace("%data%", bio.contacts[property]);
         formattedContact = formattedContact.replace("%contact%",property );
+<<<<<<< HEAD
+=======
+        $("#header").append(formattedContact);
+>>>>>>> aa31c1f126e338fa9c47ab0cc74a2e5213c9bc45
         $("#lets-connect").append(formattedContact);
     }
     if (bio.skills.length > 0) {
