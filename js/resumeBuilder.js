@@ -15,7 +15,7 @@ var bio = {
     "role": "hiking ninja (sensei)\n",
     "image": "images/hike_photo.jpg",
     "pictureURL": " https://goo.gl/photos/mRhgyZA2w4jUPje8A ",
-    "welcomeMessage": "Welcome! and Happy Hiking!",
+    "welcomeMessage": "Happy Hiking!",
     "contacts": {
     	"mobile": " 408 xxx yyyy",
     	"email": " mujtabag64@gmail.com",
