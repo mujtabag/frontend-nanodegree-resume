@@ -32,7 +32,10 @@ var work = {
         "title": "Hiking Sensei",
         "employer": "Grand Order of the Hiking Ninjas of America",
         "years": "2013-2015",
-        "description": "Took a bunch of people on really cool hikes. Also made awesome food in the wilderness, and caught some trout. I recommend the Whitney Portal Store for monumental pancakes, as a recovery meal after the hike",
+        "description": "Took a bunch of people on really cool hikes. "+
+        "Also made awesome food in the wilderness, and caught some trout."+
+        " I recommend the Whitney Portal Store for monumental pancakes,"+
+        " as a recovery meal after the hike",
         "location": "Lone Pine, CA",
         "map": "https://www.google.com/maps/d/embed?mid=z42Tzeiu1Nto.kNF0VKegGDeU",
         "image": ""
@@ -40,7 +43,12 @@ var work = {
         "title": "Hiking Ninja",
         "employer": "Grand Order of the Hiking Ninjas of America",
         "years": "2001-2013",
-        "description": "Crossed the Sierra Nevada. Also called in a helicopter rescue, but everyone was fine in the end. Mammoth is an especially fine place for post-hike recovery meals. I personally recommend the <a href=\"http://www.basecampcafe.com/Base_Camp_Cafe/Base_Camp_Cafe.html\"> Base Camp Cafe </a>",
+        "description": "Crossed the Sierra Nevada. "+
+        "Also called in a helicopter rescue, but everyone was fine in the end."+
+        " Mammoth is an especially fine place for post-hike recovery meals. "+
+        "I personally recommend the "+
+        "<a href=\"http://www.basecampcafe.com/Base_Camp_Cafe/Base_Camp_Cafe.html\"> "+
+        "Base Camp Cafe </a>",
         "location": "Mammoth, CA",
         "map": "https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d8279.284160992032!2d-118.97329976720577!3d37.64724271103217!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1srestaurants+!5e0!3m2!1sen!2sus!4v1442463815887",
         "image": ""
