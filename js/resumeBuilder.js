@@ -14,7 +14,7 @@ var bio = {
     "name": "\nMujtaba \n",
     "role": "hiking ninja (sensei)\n",
     "image": "images/hike_photo.jpg",
-    "pictureURL": " https://goo.gl/photos/mRhgyZA2w4jUPje8A ",
+    "biopic": " https://goo.gl/photos/mRhgyZA2w4jUPje8A ",
     "welcomeMessage": "Happy Hiking!",
     "contacts": {
     	"mobile": " 408 xxx yyyy",
@@ -58,25 +58,25 @@ var project = {
     "projects": [{
         "title": "Clouds Rest",
         "description": "Hiked to the top of Clouds Rest for a spectacular view of the Sierra crest",
-        "dates": "2015",
+        "dates": "May-2015",
         "images": ["images/from_clouds_rest.jpg"],
         "waypoints": ""
     }, {
         "title": "Mount Hoffman",
         "description": "Climbed Mount Hoffman, in the geographic center of Yosemite",
-        "dates": "2014",
+        "dates": "September-2014",
         "images": ["images/from_mount_hoffman.jpg"],
         "waypoints": ["May Lake, Yosemite National Park", "Mount Hoffman, Yosemite National Park", "37.846260, -119.509793", "37.840435, -119.502309", "37.841812, -119.509337"]
     }, {
         "title": "Roads End to Whitney Portal",
         "description": "Crossed the Sierra Nevada from West to East",
-        "dates": "2012",
+        "dates": "June-2012",
         "images": ["images/whitney_window.jpg"],
         "waypoints": ""
     }, {
         "title": "Ansel Adams Wilderness",
         "description": "Hung out and fished at Garnet Lake. Climbed some small unnamed mountains",
-        "dates": "2011",
+        "dates": "August-2011",
         "images": ["images/Sunrise.jpg"],
         "waypoints": ""
     }]
