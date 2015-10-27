@@ -100,8 +100,14 @@ var education = {
 	"dates":"1985"
     }],
     "onlineCourses": [{
-        "title": "",
-        "school": "",
+        "title": "Intro to HTML and CSS",
+        "school": "Udacity",
+        "date": 2015,
+        "url": "https://www.udacity.com"
+        },
+        {
+        "title": "Intro to Javascript",
+        "school": "Udacity",
         "date": 2015,
         "url": "https://www.udacity.com"
     }]
@@ -189,6 +195,9 @@ work.display = function() {
 education.display = function() {
   // method to display project data
   console.log(education.schools.length);
+
+  // first, display the (non-online) schools
+
   if (education.schools.length > 0) {
         $("#header").append(HTMLschoolStart);
         for (var index in education.schools) {
@@ -207,6 +216,24 @@ education.display = function() {
            }
         }
   }
+
+  // now display the onlineCourses
+  if (education.onlineCourses.length > 0) {
+        $("#education").append(HTMLonlineClasses);
+        for (var index in education.onlineCourses) {
+            if (education.hasOwnProperty('schools')) {
+                var formattedOnlineTitle = HTMLonlineTitle.replace("%data%", education.onlineCourses[index].title);
+                var formattedOnlineSchool = HTMLonlineSchool.replace("%data%", education.onlineCourses[index].school);
+                var formattedOnlineDates = HTMLonlineDates.replace("%data%", education.onlineCourses[index].date);
+                var formattedOnlineURL = HTMLonlineURL.replace("%data%", education.onlineCourses[index].url);
+                $("#education").append(formattedOnlineTitle);
+                $("#education").append(formattedOnlineSchool);
+                $("#education").append(formattedOnlineDates);
+                $("#education").append(formattedOnlineURL);
+           }
+        }
+  }
+
 }
 
 function inName(name) {
