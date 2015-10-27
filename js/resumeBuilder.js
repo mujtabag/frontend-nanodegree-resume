@@ -87,17 +87,23 @@ var education = {
     "schools": [{
         "name": "The Johns Hopkins University",
         "location": "Baltimore, MD",
-        "major": "Engineering",
+        "majors": ["Engineering"],
         "minor": "",
         "degree":"PhD",
-	"dates":"1988-1993"
+	"dates":"1993"
     }, {
         "name": "Imperial College of Science and Technology",
         "location": "London, UK",
-        "major": "Physics",
+        "majors": ["Physics"],
         "minor": "",
 	"degree":"BSc",
-	"dates":"1982-1985"
+	"dates":"1985"
+    }],
+    "onlineCourses": [{
+        "title": "",
+        "school": "",
+        "date": 2015,
+        "url": "https://www.udacity.com"
     }]
 };
 
@@ -190,7 +196,7 @@ education.display = function() {
                 console.log(education.schools[index].name);
                 var formattedSchoolName= HTMLschoolName.replace("%data%", education.schools[index].name);
                 var formattedLocation = HTMLschoolLocation.replace("%data%",education.schools[index].location);
-                var formattedMajor= HTMLschoolMajor.replace("%data%",education.schools[index].major);
+                var formattedMajor= HTMLschoolMajor.replace("%data%",education.schools[index].majors[0]);
                 var formattedDegree= HTMLschoolDegree.replace("%data%",education.schools[index].degree);
                 var formattedDates= HTMLschoolDegree.replace("%data%",education.schools[index].dates);
                 $("#education").append(formattedSchoolName);
