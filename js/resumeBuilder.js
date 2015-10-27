@@ -15,7 +15,7 @@ var bio = {
     "role": "hiking ninja (sensei)\n",
     "image": "images/hike_photo.jpg",
     "pictureURL": " https://goo.gl/photos/mRhgyZA2w4jUPje8A ",
-    "welcomeMessage": "",
+    "welcomeMessage": "Welcome! and Happy Hiking!",
     "contacts": {
     	"mobile": " 408 xxx yyyy",
     	"email": " mujtabag64@gmail.com",
@@ -90,14 +90,16 @@ var education = {
         "majors": ["Engineering"],
         "minor": "",
         "degree":"PhD",
-	"dates":"1993"
+	"dates":"1993",
+        "url": "https://www.jhu.edu"
     }, {
         "name": "Imperial College of Science and Technology",
         "location": "London, UK",
         "majors": ["Physics"],
         "minor": "",
 	"degree":"BSc",
-	"dates":"1985"
+	"dates":"1985",
+        "url": "https://www.imperial.ac.uk"
     }],
     "onlineCourses": [{
         "title": "Intro to HTML and CSS",
@@ -208,11 +210,13 @@ education.display = function() {
                 var formattedMajor= HTMLschoolMajor.replace("%data%",education.schools[index].majors[0]);
                 var formattedDegree= HTMLschoolDegree.replace("%data%",education.schools[index].degree);
                 var formattedDates= HTMLschoolDegree.replace("%data%",education.schools[index].dates);
+                var formattedURL = HTMLonlineURL.replace("%data%",education.schools[index].url);
                 $("#education").append(formattedSchoolName);
                 $("#education").append(formattedLocation);
                 $("#education").append(formattedMajor);
                 $("#education").append(formattedDegree);
                 $("#education").append(formattedDates);
+                $("#education").append(formattedURL);
            }
         }
   }
